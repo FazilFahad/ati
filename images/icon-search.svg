@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon-search.svg" class="cls-1" d="M1770.51,22.114a6.4,6.4,0,1,1-6.4,6.4A6.4,6.4,0,0,1,1770.51,22.114Zm5.35,11.747,3.27,3.269" transform="translate(-1763.12 -21.125)"/>
+</svg>

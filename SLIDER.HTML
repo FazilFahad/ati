@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<style>
+.swiper-container {
+    width: 100%;
+}
+</style>
+
+<body>
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/slide2.png" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="images/slide2.png" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="images/slide2.png" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="images/slide2.png" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="images/slide2.png" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="images/slide2.png" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="images/slide2.png" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="images/slide2.png" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="images/slide2.png" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="images/slide2.png" class="img-responsive"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script/swiper.jquery.min.js"></script>
+    <script src="script/swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30,
+    });
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30,
+        freeMode: true
+    });
+
+    </script>
+</body>
+
+</html>
